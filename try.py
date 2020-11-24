@@ -46,7 +46,7 @@ class bandera:
         print(l)
         x = range(1, len(l)+1)
         k = KneeLocator(x, l)
-        plt.plot(list(np.arange(1, 4)), l)
+        plt.plot(list(np.arange(0, 3)), l)
         plt.show()
         return k.knee, image_RGB
 
